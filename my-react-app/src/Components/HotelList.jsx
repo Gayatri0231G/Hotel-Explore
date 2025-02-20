@@ -4,30 +4,30 @@ import { IoSearch } from "react-icons/io5";
 import { FaHotel, FaPlane, FaMapMarkerAlt, FaUtensils } from "react-icons/fa";
 
 const hotels = [
-  {
-    id: 1,
-    name: "Hotel Royal Blue",
-    location: "Zurich, Switzerland",
-    price: "$480/night",
-    rating: "4.9 (6.8K)",
-    image: "hotel.jpg",
-  },
-  {
-    id: 2,
-    name: "Warwick Grand Hotel",
-    location: "New York, USA",
-    price: "$480/night",
-    rating: "5.0 (2.6K)",
-    image: "hotel.jpg",
-  },
-  {
-    id: 3,
-    name: "Water Garden Inn",
-    location: "London, UK",
-    price: "$420/night",
-    rating: "4.8 (5.2K)",
-    image: "hotel.jpg",
-  },
+  // {
+  //   id: 1,
+  //   name: "Hotel Royal Blue",
+  //   location: "Zurich, Switzerland",
+  //   price: "$480/night",
+  //   rating: "4.9 (6.8K)",
+  //   image: "hotel.jpg",
+  // },
+  // {
+  //   id: 2,
+  //   name: "Warwick Grand Hotel",
+  //   location: "New York, USA",
+  //   price: "$480/night",
+  //   rating: "5.0 (2.6K)",
+  //   image: "hotel.jpg",
+  // },
+  // {
+  //   id: 3,
+  //   name: "Water Garden Inn",
+  //   location: "London, UK",
+  //   price: "$420/night",
+  //   rating: "4.8 (5.2K)",
+  //   image: "hotel.jpg",
+  // },
 ];
 
 const HotelList = () => {
@@ -62,7 +62,15 @@ const HotelList = () => {
       <a className="see">see all</a>
       </div>
       <div className="hotel-list">
-        {hotels.map((hotel) => (
+        <div className="hotel-img">
+          <img src="https://th.bing.com/th/id/OIP.pEK2GyNkCAAkV1SOv1HEXQHaFu?w=219&h=180&c=7&r=0&o=5&pid=1.7"></img>
+          <div className="pagination">
+            <span className="dot"></span>
+            <span className="dot active"></span>
+          <span className="dot"></span>
+        </div>
+      </div>
+        {/* {hotels.map((hotel) => (
           <div className="hotel-card" key={hotel.id}>
             <img src={hotel.image} alt={hotel.name} className="hotel-image" />
             <div className="hotel-info">
@@ -74,7 +82,7 @@ const HotelList = () => {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );
