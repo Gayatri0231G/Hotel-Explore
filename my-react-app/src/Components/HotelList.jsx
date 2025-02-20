@@ -1,6 +1,7 @@
 import React from "react";
 import "./HotelList.css";
 import { IoSearch } from "react-icons/io5";
+import { FaHotel, FaPlane, FaMapMarkerAlt, FaUtensils } from "react-icons/fa";
 
 const hotels = [
   {
@@ -39,12 +40,31 @@ const HotelList = () => {
         <span className="highlight">Explore Hotels</span>
       
       
-      <div className="category-tabs">
+      {/* <div className="category-tabs">
         <button className="active">Hotel</button>
-        <button>Flight</button>
+        <button>Flight</button> 
         <button>Place</button>
         <button>Food</button>
+      </div> */}
+      <div className="category-nav">
+        <div className="category-item active">
+          <FaHotel size={18} />
+          <span>Hotel</span>
+        </div>
+        <div className="category-item">
+          <FaPlane size={22} />
+          <span>Flight</span>
+        </div>
+        <div className="category-item">
+          <FaMapMarkerAlt size={22} />
+          <span>Place</span>
+        </div>
+        <div className="category-item">
+          <FaUtensils size={22}/>
+          <span>Food</span>
+        </div>
       </div>
+      <div className="header"></div>
       <h2 className="section-title">Popular Hotels</h2>
       <div className="hotel-list">
         {hotels.map((hotel) => (
