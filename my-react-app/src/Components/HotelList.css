@@ -1,9 +1,8 @@
 .hotel-container {
     font-family: 'Poppins', sans-serif;
-    padding: 20px;
+    padding: 15px;
     max-width: 300px;
     width: 100%;
-    /* display: flex; */
     border-radius: 30px;
     margin: auto;
     background-color: #ececec;
@@ -93,16 +92,16 @@
   .hotel-list {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 250px;
+    width: 230px;
+    height: 310px;
     background-color: white;
-    margin-left: 50px;
+    margin-left: 35px;
     border-radius: 20px;
   }
 
   .hotel-img{
     display: flex;
-    width: 190px;
+    width: 220px;
     height: 200px;
     background-color: #222;
     margin-left: 5px;
@@ -114,9 +113,9 @@
     border-radius: 20px;
   }
   .pagination {
-    position: absolute;
-    bottom: 95px;
-    left: 50%;
+    position: relative;
+    margin-top: 190px;
+    right: 35%;
     transform: translateX(-50%);
     display: flex;
   }
@@ -135,50 +134,154 @@
     height: 5px;
     border-radius: 5px;
   }
-  /* .hotel-card {
-    display: flex;
-    background: #fff;
-    border-radius: 10px;
-    height: 200px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .bookmarks{
+    width: 20px;
+    margin-left: 190px;
+    border-radius: 15px;
+    background-color: #eceaea;
+    text-align: center;
+    padding: 3px;
   }
-  
-  .hotel-image {
-    width: 120px;
-    height: 100px;
-    object-fit: cover;
-  }
-  
-  .hotel-info {
-    flex-grow: 1;
-    padding: 10px;
-  }
-  
-  .hotel-info h3 {
-    font-size: 16px;
-    color: #222;
-    margin: 0;
-  }
-  
-  .hotel-location {
-    font-size: 12px;
-    color: #777;
-    margin: 5px 0;
-  }
-  
-  .hotel-details {
-    display: flex;
-    justify-content: space-between;
+
+  .hotel-title{
+    margin-left: 15px;
     font-size: 14px;
     font-weight: bold;
   }
-  
-  .price {
+
+  .location{
+    margin-left: 12px;
+    font-size: 11px;
+    margin-top: 5px;
+    color: #777;
+  }
+
+  .rate{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dollar{
+    margin-left: 13px;
+    margin-top: 12px;
+    color: #ff6f00;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .night{
+    font-size: 12px;
+    color: #777;
+  }
+
+  .rating{
+    margin-top: 12px;
+    font-size: 12px;
+    margin-right: 10px;
+    font-weight: 800;
+  }
+
+  .rat{
+    color: #777;
+    font-weight: 600;
+  }
+
+  .low-cost{
+    font-weight: 800;
+    margin-top: 30px;
+  }
+
+  .grand-box{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 80px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+  }
+
+  .warwick{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .warwick-imgg img{
+    width: 80px;
+    height: 70px;
+    margin-left: 8px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    background-color: #777;
+  }
+
+  .warwick-title{
+    margin-right: 35px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .location-new{
+    font-size: 11px;
+    color: #777;
+  }
+
+  .stars{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .star{
+    font-size: 12px;
+    font-weight: bolder;
+  }
+
+  .rat1{
+    color: #777;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .grand-box2{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 80px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+  }
+
+  .warwick-title1{
+    margin-right: 55px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .icons-bottom{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    margin-top: 1px;
+    border-radius: 5px;
+    justify-content: space-between;
+  }
+
+  .icons{
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .icons1{
     color: #ff6f00;
   }
-  
-  .rating {
-    color: #444;
-  } */
+
+  .icons2{
+    margin-left: 40px;
+  }
   
