@@ -34,34 +34,11 @@
   
   .highlight {
     color: #222;
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: 900;
+    font-size: 22px;
     line-height: 0.1px;
     padding-bottom: px;
   }
-  
-  /* .category-tabs {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 0;
-  }
-  
-  .category-tabs button {
-    background-color: white;
-    border: none;
-    font-size: 12px;
-    padding: 10px;
-    border-radius: 15px;
-    height: 60px;
-    width: 50px;;
-    color: #555;
-    cursor: pointer;
-  }
-  
-  .category-tabs .active {
-    color: #ff6f00;
-    font-weight: bold;
-  } */
 
   .category-nav {
     display: flex;
@@ -73,9 +50,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 15px;
-    padding: 15px;
+    padding: 13px;
     width: 25px;
     height: 40px;
     background-color: white;
@@ -84,7 +61,7 @@
   
   .category-item.active {
     color: white;
-    padding: 10px;
+    padding: 13px;
     border-radius: 15px;
     font-weight: bold;
     width: 25px;
@@ -92,7 +69,21 @@
     background-color: #ff6f00;
     font-size: 12px;
   }
-  
+  .icons-title{
+    margin-top: 10px;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .see{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ff6f00;
+    font-weight: bold;
+  }
   .section-title {
     font-size: 18px;
     font-weight: bold;

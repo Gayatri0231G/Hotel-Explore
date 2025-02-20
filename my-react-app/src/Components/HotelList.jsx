@@ -39,33 +39,28 @@ const HotelList = () => {
         </div>
         <span className="highlight">Explore Hotels</span>
       
-      
-      {/* <div className="category-tabs">
-        <button className="active">Hotel</button>
-        <button>Flight</button> 
-        <button>Place</button>
-        <button>Food</button>
-      </div> */}
       <div className="category-nav">
         <div className="category-item active">
           <FaHotel size={18} />
-          <span>Hotel</span>
+          <span className="icons-title">Hotel</span>
         </div>
         <div className="category-item">
-          <FaPlane size={22} />
-          <span>Flight</span>
+          <FaPlane size={18} />
+          <span className="icons-title">Flight</span>
         </div>
         <div className="category-item">
-          <FaMapMarkerAlt size={22} />
-          <span>Place</span>
+          <FaMapMarkerAlt size={18} />
+          <span className="icons-title">Place</span>
         </div>
         <div className="category-item">
-          <FaUtensils size={22}/>
-          <span>Food</span>
+          <FaUtensils size={18}/>
+          <span className="icons-title">Food</span>
         </div>
       </div>
-      <div className="header"></div>
+      <div className="header">
       <h2 className="section-title">Popular Hotels</h2>
+      <a className="see">see all</a>
+      </div>
       <div className="hotel-list">
         {hotels.map((hotel) => (
           <div className="hotel-card" key={hotel.id}>
